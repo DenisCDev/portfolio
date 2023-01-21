@@ -97,6 +97,8 @@ img {
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 /*===== LAYOUT =====*/
