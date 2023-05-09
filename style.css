@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body {
-  background-color: whitesmoke;
+  background-color: #191E29;
 }
 /*===== VARIABLES CSS =====*/
 :root {
@@ -8,8 +8,8 @@ body {
   --font-semi: 600;
  /*===== Cores =====*/
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color: #01C38D;
+  --second-color: #FFFFFF;
   /*===== Tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -111,7 +111,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #191E29;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -562,14 +562,14 @@ img {
 .form textarea:hover,
 .form textarea:focus {
   outline: none;
-  border-color: #09d;
+  border-color: #132D46;
   box-shadow: 0 0 0 3px #4dc8ff;
 }
 
 .form button {
   display: block;
   padding: 1rem;
-  background: #0072c4;
+  background: var(--first-color);
   color: #fff;
   font: inherit;
   text-transform: uppercase;
