@@ -154,6 +154,7 @@
             
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contato</h2>
+                <h3 style="font-size: 14px;">Por favor preencha todos os campos</h3>
                 <form
                 action="https://formsubmit.co/denisscarabelli5@gmail.com"
                 method="POST"
@@ -171,7 +172,7 @@
                   name="_next"
                   value="https://denisscarabelli.netlify.app"
                 />
-                <button type="submit">Enviar</button>
+                <button type="submit" onclick="mostrarMensagem()">Enviar</button>
               </form>
             </div>
             </section>
@@ -187,6 +188,12 @@
         </footer>
 
         <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script>
+            function mostrarMensagem() {
+              alert("Mensagem enviada :D");
+            }
+          </script>
 
     </body>
 </body>
