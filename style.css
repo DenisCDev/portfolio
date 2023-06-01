@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body {
-  background-color: #191E29;
+  background-color: whitesmoke;
 }
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  --font-semi: 600;
+  --font-semi: 700;
  /*===== Cores =====*/
   --hue-color: 224;
   --first-color: #01C38D;
-  --second-color: #FFFFFF;
+  --second-color: black;
   /*===== Tipografia =====*/
-  --body-font: 'Poppins', sans-serif;
-  --big-font-size: 2rem;
+  --body-font: 'Cambria','Georgia',sans-serif;
+  --big-font-size: 3rem;
   --h2-font-size: 1.25rem;
-  --normal-font-size: .938rem;
+  --normal-font-size: 1.2rem;
   --smaller-font-size: .75rem;
   /*===== Margens =====*/
   --mb-2: 1rem;
@@ -111,7 +111,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #191E29;
+  background-color: whitesmoke;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -184,6 +184,11 @@ img {
 }
 
 .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
@@ -205,6 +210,8 @@ img {
 .home__social {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home__social-icon {
@@ -212,7 +219,10 @@ img {
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
   color: var(--second-color);
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .home__social-icon:hover {
   color: var(--first-color);
@@ -238,9 +248,9 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: 1.3rem 10%;
   font-weight: var(--font-semi);
-  border-radius: .5rem;
+  border-radius: .4rem;
   transition: .3s;
 }
 
@@ -252,6 +262,8 @@ img {
 .about__container {
   row-gap: 2rem;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about__subtitle {
@@ -265,6 +277,12 @@ img {
 .about__img img {
   width: 200px;
   border-radius: .5rem;
+}
+
+.about__text {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* ===== SKILLS =====*/
@@ -375,8 +393,8 @@ img {
 }
 
 .footer {
-  background-color:#191E29;
-  color: #fff;
+  background-color:whitesmoke;
+  color: black;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -393,8 +411,12 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: black;
   margin: 0 var(--mb-2);
+}
+
+.footer__icon:hover {
+  color: var(--first-color);
 }
 
 .footer__copy {
@@ -537,7 +559,7 @@ img {
 }
 
 .form label {
-  color: #fff;
+  color: black;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -586,7 +608,7 @@ img {
 }
 
 .contact {
-  background: #0c141d;
+  background: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
