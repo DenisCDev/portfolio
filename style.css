@@ -250,12 +250,17 @@ img {
   color: #fff;
   padding: 1.3rem 10%;
   font-weight: var(--font-semi);
-  border-radius: .4rem;
-  transition: .3s;
+  transition: .6s;
+  border-radius: 57px;
+  box-shadow: inset -5px -5px 74px #01C38D,
+              inset 5px 5px 74px #ffffff;
 }
 
 .button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  border-radius: 67px;
+  background-color: #018762;
+  box-shadow:  -16px -16px 65px #adadad,
+                16px 16px 65px #ffffff;
 }
 
 /* ===== ABOUT =====*/
@@ -613,4 +618,8 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
 }
