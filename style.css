@@ -609,7 +609,7 @@ img {
 .form button:hover,
 .form button:focus {
   outline: none;
-  background: #09d;
+  background: #018762;
 }
 
 .contact {
@@ -618,8 +618,4 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-html {
-  scroll-behavior: smooth;
 }
