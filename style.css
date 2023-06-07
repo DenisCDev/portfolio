@@ -256,7 +256,7 @@ img {
   display: inline-block;
   letter-spacing: 0.05rem;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 1.25rem;
   border-radius: 67px;
   overflow: hidden;
   background: var(--first-color);
