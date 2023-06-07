@@ -1,6 +1,6 @@
 # Portfólio
 
-Este é o meu portfólio, uma página que funciona como um currículo virtual. Você pode testá-lo <a href="https://denisscarabelli.netlify.app/" target="_blank">clicando aqui</a>.
+Este é o meu portfólio, uma página que funciona como um currículo virtual. Você pode testá-lo [clicando aqui](https://denisscarabelli.netlify.app/).
 
 
 ## Sobre o Projeto
