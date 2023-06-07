@@ -1,3 +1,19 @@
-<h1 align="center">Portfólio</h1>
+# Portfólio
 
-<p align="center">Página feita em HTML e CSS para funcionar como currículo virtual, teste <a target="_blank" href="https://denisscarabelli.netlify.app/#"><strong>clicando aqui</strong></a></p>
+Este é o meu portfólio, uma página que funciona como um currículo virtual. Você pode testá-lo <a href="https://denisscarabelli.netlify.app/" target="_blank">clicando aqui</a>.
+
+
+## Sobre o Projeto
+
+O objetivo deste projeto é apresentar minhas habilidades, experiências e projetos anteriores de forma organizada e atraente. Utilizei HTML e CSS para criar uma página responsiva e fácil de navegar.
+
+## Tecnologias Utilizadas
+
+    HTML
+    CSS
+    JavaScript
+
+## Como Executar o Projeto
+
+    Clone o repositório para o seu computador.
+    Abra o arquivo index.html em um navegador web.
