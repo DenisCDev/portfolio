@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 body {
   background-color: whitesmoke;
 }
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
   --font-semi: 700;
- /*===== Cores =====*/
+  /*===== Cores =====*/
   --hue-color: 224;
   --first-color: #01C38D;
   --second-color: black;
@@ -24,15 +26,6 @@ body {
   /*===== Z Index =====*/
   --z-back: -10;
   --z-fixed: 100;
-}
-
-@media screen and (min-width: 968px) {
-  :root {
-    --big-font-size: 3rem;
-    --h2-font-size: 1.25rem;
-    --normal-font-size: 1.2rem;
-    --smaller-font-size: .75rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -62,7 +55,9 @@ body {
   }
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -77,7 +72,9 @@ body {
   color: var(--second-color);
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   margin: 0;
 }
 
