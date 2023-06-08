@@ -35,6 +35,33 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: block;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav__item {
+    margin-bottom: 2rem;
+  }
+
+  .nav__link {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
