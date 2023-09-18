@@ -112,6 +112,11 @@ img {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
+.footer {
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -193,7 +198,7 @@ img {
 
 .home__social {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -205,6 +210,7 @@ img {
   color: var(--second-color);
   margin-left: auto;
   margin-right: auto;
+  margin: 0 10px;
 }
 
 
@@ -430,12 +436,13 @@ img {
 
 .footer__social {
   margin-bottom: var(--mb-4);
+  margin: 0 10px;
 }
 
 .footer__icon {
   font-size: 1.5rem;
   color: black;
-  margin: 0 var(--mb-2);
+  margin: 0 10px;
 }
 
 .footer__icon:hover {
