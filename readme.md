@@ -5,7 +5,7 @@ Este é o meu portfólio, uma página que funciona como um currículo virtual. V
 
 ## Sobre o Projeto
 
-O objetivo deste projeto é apresentar minhas habilidades, experiências e projetos anteriores de forma organizada e atraente. Utilizei HTML e CSS para criar uma página responsiva e fácil de navegar.
+O objetivo deste projeto é apresentar minhas habilidades, experiências e projetos anteriores de forma organizada e atraente.
 
 ## Tecnologias Utilizadas
 
